@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/c7c5b3bc70.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="name-logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full-Stack/Software Developer</p>
+                <h1>Hi, I'm <span>Amit</span><br>Gupta From India</h1>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------------------------------------------About------------------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./port.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a first year undergraduate student of the Department of Computer Science and Engineering, Lovely Professional University, Punjab, India. I was born in Aurangabad, Bihar.
+
+                        I was fortunate enough to know from a young age that I wanted to be an engineer. The engineering way of thinking came naturally to me. What I didn't know was what type of engineer I wanted to be. When push came to shove, I chose Software Engineering.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>Java | C++ | Python | C </li>
+                            <li><span>Frontend Developer</span><br>HTML | CSS | Tailwind | JAVASCRIPT | REACT</li>
+                            <li><span>Web Development</span><br>Node Js | Express Js | My SQL | React Native</li>
+                            <li><span>Java Developer</span><br>Spring | SpringBoot | Microservice | Kafka | Servlet</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>XXXX XXXXXXXXXXX XXXXXXXXX XXXX</li>
+                            <li><span>2018 - 2022</span><br>XXXX XXXXXXXXXXX XXXXXXXXX XXXX</li>
+                            <li><span>2017 - 2018</span><br>XXXX XXXXXXXXXXX XXXXXXXXX XXXX</li>
+                            <li><span>2016 - 2017</span><br>XXXX XXXXXXXXXXX XXXXXXXXX XXXX</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2027</span><br>---------------------------------------------------------------------------</li>
+                            <li><span>2023</span><br>B.Tech from Lovely Professional University.</li>
+                            <li><span>2021</span><br>Schooling from D.A.V. Public School, Aurangabad, Bihar.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------------------------------------------Services------------------------------------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web design involves creating visually appealing and user-friendly websites, focusing on layout, color, typography, and responsive functionality.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>UI/UX design focuses on enhancing user experience and interaction by creating intuitive, engaging, and aesthetically pleasing interfaces.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Development</h2>
+                <p>App development involves designing, building, and maintaining software applications for mobile devices or platforms, ensuring functionality.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------------------------------------------------Portfolio------------------------------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div id="work-list">
+            <div class="work">
+                <img src="./s-1.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>A social media app connects users, enabling communication, content sharing, networking, and engagement through interactive features.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./s-1.jpg" >
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>A music app offers streaming, downloading, and playlist creation, delivering audio content and seamless listening experiences.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./s-1.jpg" >
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>An online shopping app enables users to browse, purchase, and track products conveniently with secure payment options.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------------------------------------------------------Contact------------------------------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> amitgupta561710@gmail.com</p>
+                <p> <i class="fa-solid fa-square-phone"></i> 7061561710</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/a.mmitt/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/AmitGup43573754"><i class="fa-brands fa-twitter"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/amit-kumar-gupta-96649729a/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="./Resume_AmitGupta.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright 2023-24. Made with <i class="fa-solid fa-heart"></i> by Amit Gupta </p>
+    </div>
+</div>
+
+<script>
+    
+var sidemeu = document.getElementById("sidemenu");
+function openmenu(){
+    sidemeu.style.right = "0";
+}
+function closemenu(){
+    sidemeu.style.right = "-200px";
+}
+</script>
+</body>
+</html>
